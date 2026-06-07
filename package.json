@@ -1,0 +1,14 @@
+{
+  "name": "transfer-pricing-tax-documentation-suite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Transfer pricing documentation, entity transactions, benchmarking, local files, master files, and audit defense.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node scripts/smoke-test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

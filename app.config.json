@@ -1,0 +1,145 @@
+{
+  "slug": "transfer-pricing-tax-documentation-suite",
+  "title": "Transfer Pricing Tax Documentation Suite",
+  "buyer": "Multinational tax teams, accounting firms, transfer pricing advisors",
+  "description": "Transfer pricing documentation, entity transactions, benchmarking, local files, master files, and audit defense.",
+  "modules": [
+    {
+      "id": "entities",
+      "table": "entities",
+      "label": "Entity Map",
+      "description": "Entity Map workspace for Transfer Pricing Tax Documentation Suite.",
+      "subfeatures": [
+        "Legal entities",
+        "Jurisdictions",
+        "Functions"
+      ],
+      "prefix": "EM",
+      "seedValues": [
+        "Legal entities",
+        "Jurisdictions",
+        "Functions"
+      ]
+    },
+    {
+      "id": "intercompany",
+      "table": "intercompany",
+      "label": "Intercompany Transactions",
+      "description": "Intercompany Transactions workspace for Transfer Pricing Tax Documentation Suite.",
+      "subfeatures": [
+        "Services",
+        "IP",
+        "Goods"
+      ],
+      "prefix": "IT",
+      "seedValues": [
+        "Services",
+        "IP",
+        "Goods"
+      ]
+    },
+    {
+      "id": "benchmarking",
+      "table": "benchmarking",
+      "label": "Benchmarking",
+      "description": "Benchmarking workspace for Transfer Pricing Tax Documentation Suite.",
+      "subfeatures": [
+        "Comparable search",
+        "PLI",
+        "Range"
+      ],
+      "prefix": "B",
+      "seedValues": [
+        "Comparable search",
+        "PLI",
+        "Range"
+      ]
+    },
+    {
+      "id": "documentation",
+      "table": "documentation",
+      "label": "Documentation",
+      "description": "Documentation workspace for Transfer Pricing Tax Documentation Suite.",
+      "subfeatures": [
+        "Local file",
+        "Master file",
+        "CbCR"
+      ],
+      "prefix": "D",
+      "seedValues": [
+        "Local file",
+        "Master file",
+        "CbCR"
+      ]
+    },
+    {
+      "id": "policies",
+      "table": "policies",
+      "label": "TP Policies",
+      "description": "TP Policies workspace for Transfer Pricing Tax Documentation Suite.",
+      "subfeatures": [
+        "Method selection",
+        "Markup",
+        "Royalty"
+      ],
+      "prefix": "TP",
+      "seedValues": [
+        "Method selection",
+        "Markup",
+        "Royalty"
+      ]
+    },
+    {
+      "id": "audit-defense",
+      "table": "auditDefense",
+      "label": "Audit Defense",
+      "description": "Audit Defense workspace for Transfer Pricing Tax Documentation Suite.",
+      "subfeatures": [
+        "Information requests",
+        "Evidence",
+        "Positions"
+      ],
+      "prefix": "AD",
+      "seedValues": [
+        "Information requests",
+        "Evidence",
+        "Positions"
+      ]
+    },
+    {
+      "id": "calendar",
+      "table": "calendar",
+      "label": "Tax Calendar",
+      "description": "Tax Calendar workspace for Transfer Pricing Tax Documentation Suite.",
+      "subfeatures": [
+        "Filing dates",
+        "Review cycles",
+        "Owners"
+      ],
+      "prefix": "TC",
+      "seedValues": [
+        "Filing dates",
+        "Review cycles",
+        "Owners"
+      ]
+    },
+    {
+      "id": "risk-analytics",
+      "table": "riskAnalytics",
+      "label": "Risk Analytics",
+      "description": "Risk Analytics workspace for Transfer Pricing Tax Documentation Suite.",
+      "subfeatures": [
+        "BEPS risk",
+        "Margin outliers",
+        "Documentation gaps"
+      ],
+      "prefix": "RA",
+      "seedValues": [
+        "BEPS risk",
+        "Margin outliers",
+        "Documentation gaps"
+      ]
+    }
+  ],
+  "port": 5612
+}
